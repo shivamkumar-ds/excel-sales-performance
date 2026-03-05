@@ -1,127 +1,118 @@
-# Excel Skills for Business
+# 📊 Excel Sales Analytics Dashboard
 
-Completed 4-course specialization from Macquarie University (Coursera).
+Built a **Sales Performance Dashboard in Excel** using a multi-sheet retail dataset to simulate a real business analysis workflow.
 
----
-
-## What I Learned & Can Work With
-
-### Basic to Intermediate Level
-
-- Cell referencing (relative, absolute, mixed)
-- Named ranges
-- Structured spreadsheet design
-- Efficient navigation & shortcuts
+**Workflow:**  
+`Raw Data → Data Model → Pivot Analysis → Dashboard`
 
 ---
 
-### Logical & Conditional Functions
+# 🔧 Tools Used
 
-- IF, nested IF
-- IFS
-- AND, OR
-- IFERROR
-
----
-
-### Aggregation Functions
-
-- SUM
-- AVERAGE
-- COUNT / COUNTA
-- COUNTIF / COUNTIFS
-- SUMIF / SUMIFS
+- Microsoft Excel  
+- Pivot Tables  
+- Structured Tables  
+- VLOOKUP  
+- Data Modeling  
+- Dashboard Design  
 
 ---
 
-### Lookup & Referencing
+# 📈 Key KPIs
 
-- VLOOKUP (exact & approximate match)
-- INDEX
-- MATCH
-- INDEX + MATCH
-- ADDRESS
-- INDIRECT
-- OFFSET
-
-Able to build dynamic multi-sheet references instead of hard-coded models.
+- **Total Revenue:** ₹98,39,721  
+- **Total Orders:** 268,115  
+- **Units Sold:** 490,665  
+- **Average Order Value:** ₹36.70  
+- **Return Rate:** 1%  
+- **Current Stock:** 282,411  
 
 ---
 
-### Date & Financial Functions
+# 📊 Analysis Performed
 
-- EOMONTH, EDATE, WORKDAY
-- DATEDIF
-- PMT, PV, FV
-- NPV, IRR
-- SLN, SYD, DDB
-
-Built:
-- Loan schedules
-- Cash flow models
-- Scenario-based calculations
+- Revenue by **Channel**
+- Revenue by **Category**
+- Revenue by **Brand**
+- **Customer Segment** distribution
+- **Top Selling Products**
+- **Payment Method Analysis**
+- **Return Rate tracking**
+- **Inventory stock distribution**
 
 ---
 
-### Data Cleaning
+# 🧠 Data Modeling
 
-- TRIM
-- CLEAN
-- SUBSTITUTE
-- VALUE
-- TEXT
-- LEFT / MID / RIGHT
-- LEN
-- ISNUMBER
+Built a structured **Sales Model** by integrating multiple tables:
 
-Handled:
-- Text-to-number conversion
-- Removing hidden characters
-- Preparing data for PivotTables
+- Sales transactions
+- Product catalog
+- Supplier data
+- Inventory snapshot
+- Purchase orders
 
----
+Functions used:
 
-### Data Validation
-
-- Drop-down lists
-- Custom validation rules
-- Duplicate prevention
-- Input control using formulas
+```
+VLOOKUP
+IF
+Structured References
+Date extraction (Month / Year)
+```
 
 ---
 
-### Tables & Arrays
+# 📷 Project Screens
 
-- Excel Tables
-- Structured references
-- SUMPRODUCT
-- Basic array logic
-- Dynamic arrays (FILTER, SORT, UNIQUE)
+## Dashboard
+![Dashboard](Visual/dashboard.png)
 
 ---
 
-### Auditing & Protection
-
-- Trace Precedents / Dependents
-- Evaluate Formula
-- Error checking
-- Sheet & workbook protection
+## Pivot Table Analysis
+![Pivot Tables](Visual/pivot_analysis.png)
 
 ---
 
-### Basic Automation
-
-- Recording macros
-- Relative vs absolute macros
-- Basic VBA structure
-- Working with .xlsm files
+## Sales Model
+![Sales Model](Visual/sales_model.png)
 
 ---
 
-## Summary
+# 🚀 What This Project Demonstrates
 
-This program gave me structured exposure to business-focused Excel usage, including financial modeling basics, data validation, automation, and dynamic referencing.
-
-I am comfortable building structured spreadsheets and working with real-world datasets.
+- Data cleaning & preparation
+- Multi-sheet Excel modeling
+- Pivot-based business analysis
+- KPI design
+- Executive dashboard creation
 
 ---
+
+# 📚 Course Context
+
+This project was built after completing:
+
+**Excel Skills for Business – Macquarie University (Coursera)**
+
+---
+
+# 📁 Dataset Structure
+
+```
+Sales_raw
+Sales_Model
+Products
+Suppliers
+Purchase_orders
+Inventory_snapshot
+Dashboard
+Pivot_Table
+```
+
+---
+
+# 📌 Outcome
+
+This project demonstrates how Excel can transform **raw transactional data into structured business insights and dashboards**.
